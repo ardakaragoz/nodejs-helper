@@ -1,0 +1,33 @@
+{
+    "name": "nodejs-helper",
+    "displayName": "nodejs-helper",
+    "description": "Simple Extension for write less in express, discord.js and cheerio datas.",
+    "version": "0.0.4",
+    "publisher": "ArdaKaragoz",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ardakaragoz/nodejs-helper"
+    },
+    "engines": {
+        "vscode": "^1.54.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "icon": "icon.png",
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    },
+    "keywords": [
+        "nodejs",
+        "helper",
+        "discord.js",
+        "express",
+        "cheerio"
+    ]
+}
